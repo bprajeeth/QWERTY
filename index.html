@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js" defer></script>
+    <title>AI Generated Keyboard</title>
+  </head>
+  <body>
+    <div
+      class="flex flex-col gap-5 justify-center items-center h-screen w-full font-mono"
+    >
+      <h1 class="text-3xl font-bold mb-4 font-sans">
+        AI Generated Keyboard Layout
+      </h1>
+      <div>
+        <textarea
+          name="inp"
+          id="inp"
+          rows="10"
+          class="border-2 border-black rounded-lg p-2 w-full mb-4"
+          disabled
+        ></textarea>
+        <div id="keyb"></div>
+        <div class="flex">
+          <button
+            id="Space"
+            onclick="space()"
+            class="flex-1 w-full rounded-lg h-14 border-2 border-gray-700 mx-1 my-1 active:bg-gray-400 hover:bg-gray-300"
+          >
+            Space
+          </button>
+
+          <button
+            id="Backspace"
+            onclick="backspace()"
+            class="rounded-lg w-32 h-14 border-2 border-gray-700 mx-1 my-1 active:bg-gray-400 hover:bg-gray-300"
+          >
+            Backspace
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
