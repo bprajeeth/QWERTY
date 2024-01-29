@@ -1,9 +1,12 @@
 # QWERTY 🤖
 
+
+<br><img src="https://github.com/bprajeeth/QWERTY/assets/84741032/ab27c5e2-fdcf-4af4-a628-cd46775b5079" align="right"></img><br>
 QWERTY generates an efficient keyboard layout by analyzing patterns using *Artificial Intelligence*.
 This has been paired with an *interactive webpage* that generated the keyboard layout that has been generated for you to try it out !!!
 
 🫠 Check out one of the pre-generated prototype: [Prototype](https://bprajeeth.github.io/QWERTY/)
+
 
 # Key-Features 🔥
 > - Rapidly improves typing speed ⚡
